@@ -1,1 +1,6 @@
-"target/" 
+# IDE и служебные файлы
+.idea/
+*.iml
+
+# Папка сборки (Maven, Gradle и т. д.)
+target/
