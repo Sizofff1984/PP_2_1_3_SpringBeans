@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 public class AnimalsCage {
 
     @Autowired
-    @Qualifier("dog")  // This specifies we want the Dog bean
+    @Qualifier("dog")
     private Animal animal;
 
     @Autowired
@@ -19,7 +19,6 @@ public class AnimalsCage {
         System.out.println(animal.toString());
         System.out.println("At:");
         System.out.println(timer.getTime());
-        System.out.println("________________________");
     }
 
     public Timer getTimer() {

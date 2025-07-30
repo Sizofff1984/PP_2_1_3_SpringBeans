@@ -5,8 +5,7 @@ import java.util.Date;
 
 @Component
 public class Timer {
-
-    private Long time;
+    private final Long time;
 
     public Timer() {
         this.time = new Date().getTime();
